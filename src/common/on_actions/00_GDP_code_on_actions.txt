@@ -1,15 +1,77 @@
+on_game_started = {
+	effect = {
+		# Memento Mori
+		every_country = {
+            set_variable = {
+                name = last_gdp
+                value = gdp
+            }
+
+			every_interest_group = {
+				leader = {
+					if = {
+						limit = {
+							NOT = {
+								has_variable = memento_mori_immunity
+							}
+						}
+						set_variable = {
+							name = memento_mori_immunity
+							years = 5
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 on_yearly_pulse = {
     effect = {
         every_country = {
             if = {
                 limit = {
-                    gdp > 0
                     has_variable = last_gdp
                 }
-                set variable = {
-                    name = gdp_growth_rate
-                    value = (gdp - last_gdp) / last_gdp
+                if = {
+                    limit = {
+                        last_gdp > 0
+                    }
+
+                    # calculte GDP growth rate
+                    set_variable = {
+                        name = gdp_growth_rate
+                        value = gdp
+                    }
+                    change_variable = {
+                        name = gdp_growth_rate
+                        substract = last_gdp
+                    }
+                    change_variable = {
+                        name = gdp_growth_rate
+                        divide = last_gdp
+                    }
                 }
+                else = {
+                    # prevent division by 0
+                    set_variable = {
+                        name = gdp_growth_rate
+                        value = 0
+                    }
+                }
+            }
+            else = {
+                # no last_gdp yet
+                set_variable = {
+                    name = gdp_growth_rate
+                    value = 0
+                }
+            }
+
+            # update last_gdp yearly
+            set_variable = {
+                name = last_gdp
+                var = gdp
             }
         }
     }
