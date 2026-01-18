@@ -2,7 +2,7 @@
     "[yaml]": {
         "files.encoding": "utf8bom"
     },
-    "[plaintext]": {
+    "[paradox]": {  // make sure you've installed Paradox Highlight extension
         "files.encoding": "utf8bom"
     },
     "files.eol": "\n",
