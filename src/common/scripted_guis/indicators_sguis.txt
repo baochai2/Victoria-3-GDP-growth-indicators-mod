@@ -1,0 +1,17 @@
+﻿ranking_by_gdp_growth_rate_sgui = {
+    scope = country
+
+    effect = {
+        ordered_country = {
+            if = {
+                limit = {
+                    has_variable = ranking_by_gdp_growth_rate
+                    var:ranking_by_gdp_growth_rate > 0
+                }
+                max = 10
+                order_by = var:ranking_by_gdp_growth_rate
+                custom_tooltip = RANKING_BY_GDP_GROWTH_RATE_SGUI_CUSTOM_TOOLTIP
+            }
+        }
+    }
+}

@@ -14,6 +14,8 @@ indicators_monthly_pulse = {
     effect = {
         # update statistical month monthly
         update_stat_month = yes
+        # track ranking by GDP growth rate
+        calculate_ranking_by_gdp_growth_rate = yes
     }
 }
 
