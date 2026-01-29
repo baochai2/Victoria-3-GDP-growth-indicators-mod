@@ -206,3 +206,27 @@ calculate_annual_projected_gdp_growth_rate = {
         }
     }
 }
+
+calculate_ranking_by_gdp_growth_rate = {
+    set_local_variable = {
+        name = ranking_by_gdp_growth_rate_count
+        value = 1
+    }
+    ordered_country = {
+        limit = {
+            has_variable = gdp_growth_rate
+        }
+        order_by = {
+            add = var:gdp_growth_rate
+        }
+        min = 0
+        set_variable = {
+            name = ranking_by_gdp_growth_rate
+            value = local_var:ranking_by_gdp_growth_rate_count
+        }
+        change_local_variable = {
+            name = ranking_by_gdp_growth_rate_count
+            add = 1
+        }
+    }
+}
