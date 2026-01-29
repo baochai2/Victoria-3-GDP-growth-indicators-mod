@@ -213,26 +213,18 @@ calculate_ranking_by_gdp_growth_rate = {
         value = 1
     }
     ordered_country = {
-        if = {
-            limit = {
-                has_variable = gdp_growth_rate
-            }
-            order_by = var:gdp_growth_rate
-            min = 0
-            set_variable = {
-                name = ranking_by_gdp_growth_rate
-                value = local_var:count
-            }
-            change_local_variable = {
-                name = count
-                add = 1
-            }
+        limit = {
+            has_variable = gdp_growth_rate
         }
-        else = {
-            set_variable = {
-                name = ranking_by_gdp_growth_rate
-                value = 0
-            }
+        order_by = var:gdp_growth_rate
+        min = 0
+        set_variable = {
+            name = ranking_by_gdp_growth_rate
+            value = local_var:count
+        }
+        change_local_variable = {
+            name = count
+            add = 1
         }
     }
 }
