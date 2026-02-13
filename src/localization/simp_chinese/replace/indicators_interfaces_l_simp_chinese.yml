@@ -1,0 +1,2 @@
+﻿l_simp_chinese:
+ GDP_TOOLTIP:2 "#header [concept_gdp]#!\n[Country.GetAdjective]当前的$GDP_SHORT$：#N @money![Country.GetGDP|Dv]#!（[Country.GetGDPRanking]）\n$INDICATORS_GDP_TOOLTIP$\n$TOOLTIP_DELIMITER$\n人均GDP：#variable @money![Country.GetGDPPerCapita|2*]#!（[Country.GetGDPPerCapitaRanking]）\n\n"
