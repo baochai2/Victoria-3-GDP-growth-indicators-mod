@@ -7,3 +7,8 @@
 ## Supported Version
 
 1.9.8 - 1.11.1
+
+## Indicators description:
+1. Start-of-Year GDP. GDP at Jan 1 this year
+2. Annual projected GDP growth rate. The estimated GDP growth this year
+3. GDP growth rate this year. GDP growth from Jan 1 this year until now
