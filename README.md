@@ -8,6 +8,11 @@
 
 1.9.8 - 1.11.1
 
+## Supported Language
+
+English
+Simple Chinese
+
 ## Indicators description:
 1. Start-of-Year GDP. GDP at Jan 1 this year
 2. Annual projected GDP growth rate. The estimated GDP growth this year
