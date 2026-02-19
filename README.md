@@ -22,6 +22,10 @@ Simplified Chinese<br>
 Spanish<br>
 Turkish
 
+<p align="center" >
+<img src="https://i.imgur.com/XXuJUyr.png"/>
+</p>
+
 ## Indicators description:
 1. Start-of-Year GDP. GDP at Jan 1 this year
 2. Annual projected GDP growth rate. The estimated GDP growth this year
