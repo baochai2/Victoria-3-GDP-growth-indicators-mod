@@ -10,16 +10,16 @@
 
 ## Supported Language
 
-Brazilian Portuguese
-English
-French
-German
-Japanese
-Korean
-Polish
-Russian
-Simplified Chinese
-Spanish
+Brazilian Portuguese<br>
+English<br>
+French<br>
+German<br>
+Japanese<br>
+Korean<br>
+Polish<br>
+Russian<br>
+Simplified Chinese<br>
+Spanish<br>
 Turkish
 
 ## Indicators description:
