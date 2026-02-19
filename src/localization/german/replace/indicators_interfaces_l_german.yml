@@ -1,0 +1,2 @@
+﻿l_german:
+ GDP_TOOLTIP:2 "#header [concept_gdp]#!\n[Country.GetAdjective|U] aktuelles $GDP_SHORT$: #N @money![Country.GetGDP|Dv]#! ([Country.GetGDPRanking])\n$INDICATORS_GDP_TOOLTIP$\n$TOOLTIP_DELIMITER$\nBIP pro Kopf: #variable @money![Country.GetGDPPerCapita|2*]#! [Country.GetGDPPerCapitaRanking]\n\n"
