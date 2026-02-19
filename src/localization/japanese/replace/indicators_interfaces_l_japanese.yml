@@ -1,0 +1,2 @@
+﻿l_japanese:
+ GDP_TOOLTIP:2 "#header [concept_gdp]#!\n現在の[Country.GetAdjective]の$GDP_SHORT$: #N @money![Country.GetGDP|Dv]#! ([Country.GetGDPRanking])\n$INDICATORS_GDP_TOOLTIP$\n$TOOLTIP_DELIMITER$\nGDP/一人当たり: #variable @money![Country.GetGDPPerCapita|2*]#! ([Country.GetGDPPerCapitaRanking])\n\n"

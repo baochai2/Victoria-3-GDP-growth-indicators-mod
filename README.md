@@ -10,10 +10,23 @@
 
 ## Supported Language
 
+Brazilian Portuguese
 English
-Simple Chinese
+French
+German
+Japanese
+Korean
+Polish
+Russian
+Simplified Chinese
+Spanish
+Turkish
 
 ## Indicators description:
 1. Start-of-Year GDP. GDP at Jan 1 this year
 2. Annual projected GDP growth rate. The estimated GDP growth this year
 3. GDP growth rate this year. GDP growth from Jan 1 this year until now
+
+## Finally
+
+If there is any problem, please let me know
