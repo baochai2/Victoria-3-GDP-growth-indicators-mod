@@ -23,7 +23,7 @@ Spanish<br>
 Turkish
 
 <p align="center" >
-<img src="https://imgur.com/a/Gk1N74D.png"/>
+<img src="https://imgur.com/a/bnawT20"/>
 </p>
 
 ## Indicators description:
