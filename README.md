@@ -33,4 +33,4 @@ Turkish
 
 ## Finally
 
-If there is any problem, please let me know
+If there is any problem, please let me know.
