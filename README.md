@@ -5,11 +5,9 @@
 **More Economic Indicators** is a Victoria 3 mod that introduces GDP growth rate, debt growth rate etc. They are updated weekly. You can check these indicators to make sure that your economy remains healthy.
 
 ## Supported Version
-
 1.9.8 - 1.12.5
 
 ## Supported Language
-
 Brazilian Portuguese<br>
 English<br>
 French<br>
@@ -43,5 +41,4 @@ Turkish
 3. Debt GDP growth rate balance. = 0.5 * GDP growth rate this year -  real debt growth rate  because credit limit = base value + 0.5 * GDP + income of all buildings. And we must make sure that debt < credit limit all the time => debt growth rate <= 0.5 * GDP growth rate, then you will never be bankrupt.
 
 ## Finally
-
-If there is any problem, please let me know.
+If you encounter a problem, please let me know.
