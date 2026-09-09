@@ -1,0 +1,1 @@
+This mod introduces GDP growth rate, debt growth rate etc. They are updated weekly. You can check these indicators to make sure that your economy remains healthy.
